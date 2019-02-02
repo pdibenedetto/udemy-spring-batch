@@ -1,4 +1,4 @@
-package udemy.inputinterfaces;
+package udemy.databaseinput;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.boot.SpringApplication;
@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableBatchProcessing
-public class InputInterfacesApplication {
+public class DatabaseInputApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(InputInterfacesApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(DatabaseInputApplication.class, args);
+	}
 
 }
 
