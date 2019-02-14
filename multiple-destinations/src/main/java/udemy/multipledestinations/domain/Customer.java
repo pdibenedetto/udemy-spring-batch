@@ -1,4 +1,4 @@
-package udemy.readingxml.domain;
+package udemy.multipledestinations.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,6 +15,6 @@ public class Customer {
     private long id;
     private String firstName;
     private String lastName;
-    private Date birthdate;
+    private Date birthDate;
 
 }

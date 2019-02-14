@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>udemy</groupId>
-	<artifactId>reading-xml</artifactId>
+	<artifactId>multiple-destinations</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>reading-xml</name>
+	<name>multiple-destinations</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -40,7 +40,6 @@
 			<artifactId>xstream</artifactId>
 			<version>1.4.11.1</version>
 		</dependency>
-
 
 		<dependency>
 			<groupId>com.h2database</groupId>
